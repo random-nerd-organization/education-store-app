@@ -5,6 +5,7 @@ export default class App extends Component {
   state = { username: null };
 
   componentDidMount() {
+    console.log('App did mount');
   }
 
   render() {
