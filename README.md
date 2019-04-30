@@ -1,9 +1,9 @@
 # E-Commerce Shopping Platform
 
-### Prerequisites
+## Prerequisites
 You will need [nodejs](https://nodejs.org) version 10+
 
-### Installing proejct dependencies
+## Installing proejct dependencies
 Use this command from project root folder
 ```
 npm install
