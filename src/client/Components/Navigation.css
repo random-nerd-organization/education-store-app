@@ -1,0 +1,48 @@
+nav {
+  font-family: "Raleway";
+  font-size: 1.2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav .nav-item {
+  color: #666;
+  padding: 8px;
+  cursor: pointer;
+  transition: background 0.1s ease-in, color 0.1s ease-in;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 0.9em;
+}
+
+nav .nav-list {
+  display: flex;
+}
+
+.nav-item:hover {
+  color: var(--mainColor);
+}
+
+nav .nav-left {
+  transform: translateX(-200px);
+}
+
+nav .nav-logo {
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+/* temporary */
+.nav-login {
+  border-bottom:1px solid var(--mainColor);
+}
+
+.nav-login:hover {
+  background: var(--mainColor);
+  color: white;
+}

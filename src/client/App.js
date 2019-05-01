@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import "./app.css";
+import Home from "./Pages/Home";
+import "./general-styles.css";
 
 export default class App extends Component {
   state = { username: null };
@@ -10,14 +11,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <body>
-        <nav>
-          <div className="nav-item">Store</div>
-          <div className="nav-item">Sales</div>
-          <div className="nav-item"> About Us</div>
-          <div className="nav-item">Your profile</div>
-        </nav>
-      </body>
+        <Home />
     );
   }
 }
