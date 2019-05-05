@@ -4,10 +4,10 @@ import "./Navigation.css";
 export default class Nav extends Component {
 
     render() {
-        return (
+        return ( 
             <nav>
-                <div className="nav-logo">ReSize</div>
-                <div className="nav-list nav-left">
+                <div className="nav-list">
+                    <div className="nav-logo">ReSize</div>
                     <div className="nav-item">Men</div>
                     <div className="nav-item">Women</div>
                     <div className="nav-item">Sales</div>
@@ -22,3 +22,4 @@ export default class Nav extends Component {
         );
     }
 }
+ 

@@ -28,13 +28,11 @@ nav .nav-list {
   color: var(--mainColor);
 }
 
-nav .nav-left {
-  transform: translateX(-200px);
-}
-
 nav .nav-logo {
   font-size: 1.7em;
   font-weight: bold;
+  margin-right: 50px;
+  font-family: 'Indie Flower', cursive;
 }
 
 /* temporary */
