@@ -1,6 +1,9 @@
 import React, { Component } from "react";
+import { BrowserRouter, Route } from "react-router-dom";
+import Navigation from "./Components/Navigation";
 import Home from "./Pages/Home";
 import "./general-styles.css";
+
 
 export default class App extends Component {
   state = { username: null };
@@ -11,7 +14,13 @@ export default class App extends Component {
 
   render() {
     return (
-        <Home />
+        <BrowserRouter>
+          <div className="App"> 
+            <Navigation />
+            <Route exact path="/" component={Home} />
+          <Route path="/home" component={Home} />
+          </div>
+        </BrowserRouter>
     );
   }
 }
