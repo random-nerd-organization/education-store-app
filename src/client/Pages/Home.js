@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Home.css";
-
+import Form from "../Components/Form";
 export default class Home extends Component {
 
     render() {
@@ -22,6 +22,7 @@ export default class Home extends Component {
                         </div>
                     </div>
                 </section>
+                <Form/>
                 <footer>
 
                 </footer>

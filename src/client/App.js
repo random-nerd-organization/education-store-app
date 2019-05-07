@@ -18,7 +18,7 @@ export default class App extends Component {
           <div className="App"> 
             <Navigation />
             <Route exact path="/" component={Home} />
-          <Route path="/home" component={Home} />
+            <Route path="/home" component={Home} />
           </div>
         </BrowserRouter>
     );
