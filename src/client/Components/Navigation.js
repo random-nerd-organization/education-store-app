@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Navigation.css";
 import { Link } from "react-router-dom";
+import { Form } from "./Form";
 
 export default class Navigation extends Component {
 
@@ -16,8 +17,7 @@ export default class Navigation extends Component {
                 </div>
                 <div className="nav-list">
                     <div className="nav-item"> Cart </div>
-                    <div className="nav-item">Log in</div>
-                    <div className="nav-item nav-login">Sign Up</div>
+                    <div className="nav-item"> My Account </div>
                 </div>
             </nav>
         );

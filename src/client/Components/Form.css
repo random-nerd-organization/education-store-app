@@ -1,7 +1,68 @@
+.main-container{
+  width: 300px;
+  height: 550px;
+  display: flex;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.main-container .initial-screen {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container .initial-screen .logo{
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.main-container .initial-screen .button-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.main-container .button {
+  border: 1px solid white;
+  font-size: 1.2em;
+  width: 66%;
+  height: 30px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.main-container .button:hover {
+  background: white;
+  color: var(--mainColor);
+  border: 1px solid var(--mainColor);
+}
+
+.initial-screen
 .form-container {
   font-family: "Raleway";
   margin-left: 100px;
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.form-container .divider {
+  background: var(--mainColor);
+  height: 150px;
+  border-radius: 20px;
+  width: 3px;
 }
 
 .form-container form {
