@@ -5,5 +5,6 @@ module.exports = {
     },
     production: {
         port: process.env.PORT || 8080,
+        dbPath: 'mongodb+srv://admin:admin@cluster0-vw4qk.mongodb.net/test?retryWrites=true'
     }
 }

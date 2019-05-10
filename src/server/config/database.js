@@ -4,7 +4,7 @@ const User = require('../models/User')
 
 module.exports = (config) => {
     try {
-        mongoose.connect(config.dbPath, {
+        mongoose.connect(`${config.dbPath}/random-store`, {
             promiseLibrary: global.Promise,
             useNewUrlParser: true,
             useCreateIndex: true
