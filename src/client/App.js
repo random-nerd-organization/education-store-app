@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
+import Notification from "./Components/Notification";
 import Navigation from "./Components/Navigation";
+
 import Home from "./Pages/Home";
 import "./general-styles.css";
 
@@ -17,6 +19,7 @@ export default class App extends Component {
         <BrowserRouter>
           <div className="App"> 
             <Navigation />
+            <Notification />
             <Route exact path="/" component={Home} />
             <Route path="/home" component={Home} />
           </div>
