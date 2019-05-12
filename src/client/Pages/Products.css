@@ -1,0 +1,17 @@
+#products-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 25px;
+}
+
+#products-wrapper div {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid;
+    cursor: pointer;
+}
+#products-wrapper * {
+    text-decoration: none;
+}
