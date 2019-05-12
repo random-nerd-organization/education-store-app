@@ -4,6 +4,8 @@
 :root {
 --mainColor: #1cd1dd;
 --secondaryColor: #ff73b3;
+--facebookColor: #3b5998;
+--googleColor: #db3236;
 }
 
 * {
