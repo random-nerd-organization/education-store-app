@@ -3,6 +3,12 @@ import "./Home.css";
 
 
 export default class Home extends Component {
+  async componentDidMount() {
+    const res = await fetch('/api/products/top20');
+    const productsTop20 = await res.json();
+    console.log(productsTop20);
+  }
+
   render() {
     return (
       <main>
